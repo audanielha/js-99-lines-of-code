@@ -26,7 +26,7 @@ singBtn.addEventListener("click",(()=>{
         for(let x = 99; x >= 1; x--){
             if(x > 1){
                 let p = document.createElement('p');
-                let pText = document.createTextNode(`${x}lines of code in the file,`)
+                let pText = document.createTextNode(`${x} lines of code in the file,`)
                 p.appendChild(pText)
                 div.appendChild(p)
             }else{
